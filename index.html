@@ -983,8 +983,6 @@ buildCatTabs();
 buildInstRow();
 buildPadGrid();
 updateLoopCount();
-// show recording tutorial automatically on first load
-setTimeout(()=>recTutorial.classList.add('open'), 400);
 
 // keep audio context alive on first touch anywhere
 document.body.addEventListener('pointerdown', resumeAudio, {once:true});
